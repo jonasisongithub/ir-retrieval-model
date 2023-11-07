@@ -1,5 +1,3 @@
-# load data
-
 from tira.third_party_integrations import ensure_pyterrier_is_loaded
 import pyterrier as pt
 
@@ -24,4 +22,3 @@ model = create_model(index)
 
 # test model
 test_model(model)
-
