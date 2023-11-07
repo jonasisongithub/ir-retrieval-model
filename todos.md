@@ -5,7 +5,9 @@
 - stopwords (Jonas)
 - query expansion (next iteration)
 - improve index with custom weights (next iteration)
+- preprocessing/data cleaning (?)
 
 # general
 - correct evaluation (Mark)
 - generate output file (Mark)
+
