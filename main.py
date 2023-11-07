@@ -1,6 +1,6 @@
 # load data
 
-from tira.third_party_integrations import ir_datasets, ensure_pyterrier_is_loaded
+from tira.third_party_integrations import ensure_pyterrier_is_loaded
 import pyterrier as pt
 
 from load_dataset import load_dataset 

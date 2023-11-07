@@ -16,6 +16,10 @@ def test_model(model):
         {'qid': '3', 'docno': 'd2', 'relevance': 1}, #d2 is the only relevant document for query 3
     ])
 
-    pt.Experiment([model], topics, qrels, eval_metrics=['ndcg_cut_3', 'P_1'])
+    print("Overall performance:\n")
+    print(pt.Experiment([model], topics, qrels, eval_metrics=['ndcg_cut_3', 'P_1']))
+    print("\n")
 
-    model.search("sport")
+    print("Single word search:\n")
+    print(model.search("sport"))    
+    print("\n")
